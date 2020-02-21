@@ -1122,7 +1122,7 @@ h1{
 
 .section3{
 	background-color: #ffe09c;
-	height: 100vh;
+	height: 150vh;
 	width:100%;
 	position: relative;
 	overflow: hidden;
@@ -1151,19 +1151,17 @@ h1{
 }
 
 .lampe{
-	text-align: center;
-	z-index: 20;
+
+	
 	position: absolute;
-	bottom: 30%;
-	left: calc(50% - 275px);
-	left: calc(50% - 15%);
-	width: 30%;
-	min-width: 350px;
+	bottom: calc(50% - 64px);
+	left: calc(50% + 150px);
+	z-index: 850;
 
 }
 .lampe img{
-	margin-top: -200px;
-	width:100%;
+	margin-top: -50px;
+	width:90%;
 }
 
 /* //////////////////////////////////////////////////////////////////////
@@ -1640,6 +1638,7 @@ svg#tracesvg{
 		top: 3300px;
 		left: calc(50% - 60px);
 		z-index: 630;
+		transform: rotate(-90deg);
 	}
 
 	.teatime{
@@ -1752,7 +1751,7 @@ svg#tracesvg{
 .section7 .textOverparallax{
 	z-index: 72;
 	position: absolute;
-	top: 43%;
+	top: 23%;
 	left: 20%;
 	opacity: 1;
 	
